@@ -29,4 +29,5 @@ jobs:
     - name: Install Surge
       run: npm install -g surge
     - name: Run Surge
-      run: surge ./ usamakhanweb.surge.sh --token ${( Secrets.SURGE_TOKEN )}
+      run: surge ./ usamakhanweb.surge.sh --token ${( Secrets.surge_token )}
+  
