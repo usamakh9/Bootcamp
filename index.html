@@ -11,35 +11,8 @@
    <p>
        Hello World from Usama khan <br>
        Best of luck
+       <a href="calculate.html">Calculate your marks</a>
    </p> 
-
-   
-   <p>Enter your 9th or 1st year marks (science) to get appoximation of your total marks.</p>
-   <form class="middle">
-   <input type="text" id="marks">
-   <script >
-       function cal() { 
-        var stdmarks=document.getElementById("marks").value; 
-        var tmarks=parseInt(stdmarks)*2 
-        
-        var wper=tmarks*3/100
-        var wopractical=tmarks+wper 
-        var halfadd = wopractical+45
-        var pp=wopractical/1010*100
-        var pm=pp*45/100
-        var tt=pm+halfadd
-        alert(tt.toFixed(0))
-
-       }
-       
-       
-       
-   </script>
-   <input type="button" onclick="cal()" value="calculate">
-   </form><br>
-   <p2 class="middle">This is only applied for 9th(science) and 1st year (Pre-medical and pre-engineering) students.</p2><br>
-       <p2 class="middle">Note: Your marks may vary.
-   </p2>
 
    
 
